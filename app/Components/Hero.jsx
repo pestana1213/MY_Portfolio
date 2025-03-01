@@ -3,9 +3,8 @@ import React from "react";
 import Image from "next/image";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TechStack from "./TechStack";
-import InfiniteScrollTech from "./TechGrid";
-import TechGrid from "./TechGrid";
+import DownloadCV from "./DownloadCV";
+
 
 const Hero = () => {
 
@@ -57,6 +56,7 @@ const Hero = () => {
             <a href="https://github.com/pestana1213" target="_blank" rel="noopener noreferrer">
                 <GitHubIcon fontSize="large" className="shadow-[rgba(0,0,15,0.5)_10px_5px_4px_0px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" />
             </a>
+              <DownloadCV />
           </div>
         </div>
 
