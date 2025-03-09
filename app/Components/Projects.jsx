@@ -6,6 +6,20 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Order Management System Sender",
+    description: "A simple order management system that sends events to a Kafka topic. It was built using Spring Boot and Kafka.",
+    github: "https://github.com/pestana1213/Order-event-sender",
+    live: "",
+    image: "/order-management-system.png"
+  },
+  {
+    title: "Order Management System Receiver",
+    description: "A simple order management system that receives and process events from a Kafka topic. It was built using Spring Boot, Kafka and MongoDB.",
+    github: "https://github.com/pestana1213/Order-event-processor",
+    live: "",
+    image: "/order-management-system.png"
+  },
+  {
     title: "Geometrix",
     description: "Game to learn geometry concepts",
     github: "https://github.com/pestana1213/Geometrix",
