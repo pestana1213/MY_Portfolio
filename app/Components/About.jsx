@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div>
                         <h1 className="text-3xl font-bold text-center mb-6 text-white">
-                            Software Engineering at Accenture Portugal
+                            Software Engineer at Accenture Portugal
                         </h1>
                         <p className="text-lg text-center font-light">
                             Currently working as a Software Engineer at Accenture Portugal, I have been developing new features, fixing bugs and optimizing performance for the past years.
